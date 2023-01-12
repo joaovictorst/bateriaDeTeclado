@@ -139,4 +139,3 @@ function tocarescrita(i) {
     audio.currentTime = 0;
     audio.play();
 };
-

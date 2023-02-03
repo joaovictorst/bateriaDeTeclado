@@ -7,7 +7,9 @@ const keyd = document.getElementById('keyd');
 const keyz = document.getElementById('keyz');
 const keyx = document.getElementById('keyx');
 const keyc = document.getElementById('keyc');
+
 // apertar teclas no teclado
+
 document.body.addEventListener("keyup", (event) => {
     event.code;
     if(event.code == "KeyQ"){
